@@ -3,6 +3,7 @@
   "bulletin1":{
     "title": "Welcome to the Bulletin Board",
     "label": "label-info",
+    "tag": "News",
     "date": "February 23rd, 2016",
     "author": "Matthew Wang",
     "content": "Hey there, this is the Awesome Suite Bulletin! Here, I'll post release notes, news about the app, and some helpful tips and tricks about the suite. Right now, this is all manual, but eventually I'll work on making this fetch off of a server and being automatic!"
@@ -10,6 +11,7 @@
   "bulletin2":{
     "title": "Welcome to the Bulletin Board",
     "label": "label-info",
+    "tag": "News",
     "date": "February 23rd, 2016",
     "author": "Matthew Wang",
     "content": "Hey there, this is the Awesome Suite Bulletin! Here, I'll post release notes, news about the app, and some helpful tips and tricks about the suite. Right now, this is all manual, but eventually I'll work on making this fetch off of a server and being automatic!"
@@ -17,6 +19,7 @@
   "bulletin3":{
     "title": "Welcome to the Bulletin Board",
     "label": "label-info",
+    "tag": "News",
     "date": "February 23rd, 2016",
     "author": "Matthew Wang",
     "content": "Hey there, this is the Awesome Suite Bulletin! Here, I'll post release notes, news about the app, and some helpful tips and tricks about the suite. Right now, this is all manual, but eventually I'll work on making this fetch off of a server and being automatic!"
