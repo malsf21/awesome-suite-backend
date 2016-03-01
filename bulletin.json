@@ -14,8 +14,7 @@
     "tag": "Release",
     "date": "February 23rd, 2016",
     "author": "Matthew Wang",
-    "content": "Man, this release looks pretty awesome! I've added a quadratic solver, this very bulletin, touched up on some UI elements, and squashed a few bugs and inefficiencies.
-    You can find a full changelog <a href='https://github.com/malsf21/awesome-suite/releases'>here</a>. Until next time!"
+    "content": "Man, this release looks pretty awesome! I've added a quadratic solver, this very bulletin, touched up on some UI elements, and squashed a few bugs and inefficiencies. You can find a full changelog <a href='https://github.com/malsf21/awesome-suite/releases'>here</a>. Until next time!"
   },
   "bulletin3":{
     "title": "Welcome to the Bulletin Board",
