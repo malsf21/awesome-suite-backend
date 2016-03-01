@@ -22,26 +22,3 @@
     "content": "Hey there, this is the Awesome Suite Bulletin! Here, I'll post release notes, news about the app, and some helpful tips and tricks about the suite. Right now, this is all manual, but eventually I'll work on making this fetch off of a server and being automatic!"
   }
 }
-
-{
-  "name": "awesome-suite",
-  "version": "0.3.0",
-  "description": "A bunch of fun-ctions by Matthew Wang.",
-  "main": "main.js",
-  "scripts": {
-    "start": "electron main.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/malsf21/awesome-suite.git"
-  },
-  "author": "Matthew Wang",
-  "license": "CC0-1.0",
-  "bugs": {
-    "url": "https://github.com/malsf21/awesome-suite/issues"
-  },
-  "homepage": "https://github.com/malsf21/awesome-suite#readme",
-  "devDependencies": {
-    "electron-prebuilt": "^0.36.0"
-  }
-}
