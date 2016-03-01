@@ -1,20 +1,23 @@
 {
   "count" : "3",
   "bulletin1":{
-    "title": "Welcome to the Bulletin Board",
+    "title": "Bulletin Board now Auto-Updates",
     "label": "label-info",
     "tag": "News",
-    "date": "February 23rd, 2016",
+    "date": "February 29th, 2016",
     "author": "Matthew Wang",
-    "content": "Hey there, this is the Awesome Suite Bulletin! Here, I'll post release notes, news about the app, and some helpful tips and tricks about the suite. Right now, this is all manual, but eventually I'll work on making this fetch off of a server and being automatic!"
+    "content": "Short update, but the bulletin now actually pulls requests from the server. That means this bulletin will update you on the latest releaes, news, and other tidbits, regardless of your Awesome Suite version (as long as it is 0.4.0+). Have fun!"
   },
   "bulletin2":{
-    "title": "Welcome to the Bulletin Board",
-    "label": "label-info",
-    "tag": "News",
+    "title": "Version 0.3.0 Released!",
+    "label": "label-success",
+    "tag": "Release",
     "date": "February 23rd, 2016",
     "author": "Matthew Wang",
-    "content": "Hey there, this is the Awesome Suite Bulletin! Here, I'll post release notes, news about the app, and some helpful tips and tricks about the suite. Right now, this is all manual, but eventually I'll work on making this fetch off of a server and being automatic!"
+    "content": "Man, this release looks pretty awesome! I've added a quadratic solver, this very bulletin, touched up on some UI elements, and squashed a few bugs and inefficiencies.
+    </br>
+    </br>
+    You can find a full changelog <a href='https://github.com/malsf21/awesome-suite/releases'>here</a>. Until next time!"
   },
   "bulletin3":{
     "title": "Welcome to the Bulletin Board",
