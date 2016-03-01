@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Awesome Suite</title>
+    <title>Awesome Suite Bulletin</title>
     <link rel="stylesheet" href="css/bootstrap-paper.css" />
     <style>
       .bulletin-wrapper{
@@ -74,7 +74,7 @@
     //console.log(bulletin_arr[0]);
     //console.log(bulletin_arr[1]['date']);
     for (i = 1; i < bulletin_arr[0] + 1; i++){
-      $("#bulletin-title-" + i).html(bulletin_arr[i]['title'] + "<span class='label " + bulletin_arr[i]['label'] + "'>" + bulletin_arr[i]['tag'] + "</span>");
+      $("#bulletin-title-" + i).html(bulletin_arr[i]['title'] + " <span class='label " + bulletin_arr[i]['label'] + "'>" + bulletin_arr[i]['tag'] + "</span>");
       /*
       $("#bulletin-tag-" + i).html(bulletin_arr[i]['tag']);
       $("#bulletin-tag-" + i).addClass(bulletin_arr[i]['label']);
