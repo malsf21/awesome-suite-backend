@@ -69,17 +69,17 @@
       return xmlHttp.responseText;
     }
     var bulletin_data = JSON.parse(httpGet("bulletin.json"));
-    console.log(bulletin_data);
+    //console.log(bulletin_data);
     var bulletin_arr = $.map(bulletin_data, function(el) { return el });
     //console.log(bulletin_arr[0]);
     //console.log(bulletin_arr[1]['date']);
     for (i = 1; i < bulletin_arr[0] + 1; i++){
-      ("#bulletin-title-" + i).html(bulletin_arr[1]['title']);
-      ("#bulletin-tag-" + i).html(bulletin_arr[1]['tag']);
-      ("#bulletin-tag-" + i).addClass(bulletin_arr[1]['label']);
-      ("#bulletin-date-" + i).html(bulletin_arr[1]['date']);
-      ("#bulletin-author-" + i).html(bulletin_arr[1]['author']);
-      ("#bulletin-content-" + i).html(bulletin_arr[1]['content']);
+      $("#bulletin-title-" + i).html(bulletin_arr[1]['title']);
+      $("#bulletin-tag-" + i).html(bulletin_arr[1]['tag']);
+      $("#bulletin-tag-" + i).addClass(bulletin_arr[1]['label']);
+      $("#bulletin-date-" + i).html(bulletin_arr[1]['date']);
+      $("#bulletin-author-" + i).html(bulletin_arr[1]['author']);
+      $("#bulletin-content-" + i).html(bulletin_arr[1]['content']);
     }
 
   </script>
